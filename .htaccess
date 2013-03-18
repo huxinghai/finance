@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+AcceptPathInfo on
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+RewriteBase /finance
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+#RewriteCond %{HTTP_REFERER} !^$ [NC]
+#RewriteCond %{HTTP_REFERER} !127.0.0.1 [NC]
+#RewriteRule .*\.(gif|jpg)$ http://127.0.0.1/img/admin/no.png [R,NC,L]
+</IfModule>

@@ -1,0 +1,309 @@
+/* 
+    Document   : product_context
+    Created on : 2012-10-6, 19:02:38
+    Author     : kaka
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+	background:#000;
+	padding:0;
+	margin:0;
+}
+
+p,ul,li,img,form,h1,h3,h2{
+	margin:0;
+	padding:0;
+	}
+.fll{
+	float:left;
+	}
+.flr{
+	float:right;
+	}
+.clear{
+	clear:both;
+	}
+#wraper{
+	width:1003px;
+        margin:0 auto;
+}
+.margintop{
+	margin-top:20px;
+	}
+.di_nav{
+	height:25px;
+	line-height:25px;
+	background:#161616;
+	text-align:center;
+	word-spacing:5px;
+	color:#909090;
+	}
+.di_nav a:link,.di_nav a:visited{
+	color:#909090;
+	text-decoration:none;
+	}
+.di_nav a:hover{
+	color:#fff;
+	text-decoration:none;
+	}
+.bottom{
+	text-align:center;
+	color:#fff;
+	height:30px;
+	margin-top:10px;
+	padding-bottom:8px;
+	}
+.bottom p{
+	padding-top:8px;
+	}
+.flash{
+	width:397px;
+	height:328px;
+	background:url(../img/products/index_img_04.gif) no-repeat;
+	}
+#box{
+	width:941px;
+	margin:0 auto;
+	}
+.erji_nav{
+	height:49px;
+	line-height:49px;
+	background:url(../img/products/erji_img_10.gif) right no-repeat;
+	}
+.nav_nr li{
+	float:left;
+	width:94px;
+	height:31px;
+	line-height:31px;
+	background:url(../img/products/erji_img_12.gif) no-repeat;
+	margin-left:5px;
+	text-align:center;
+	font-size:14px;
+	margin-top:11px;
+	list-style:none;
+	}
+.nav_nr li a{
+	display:block;
+	width:94px;
+	height:31px;
+	background:url(../img/products/erji_img_12.gif) no-repeat;
+	}
+.nav_nr li a:link,.nav_nr li a:visited{
+	background:url(../img/products/erji_img_12.gif) no-repeat;
+	text-decoration:none;
+	color:#000;
+	}
+.nav_nr li a:hover{
+	background:url(../img/products/erji_img_14.gif) no-repeat;
+	text-decoration:none;
+	color:#fff;
+	}
+.nav_nr{
+	height:49px;
+	line-height:49px;
+	}
+#tsgn{
+	background:url(../img/products/erji_img_14.gif) no-repeat;
+	color:#fff;
+	}
+.zuo{
+	width:192px;
+	background:url(../img/products/erji_img_23.gif) repeat-y;
+	padding-top:15px;
+	border:#f2c667 1px solid;
+	}
+.you{
+	width:690px;
+	background:#fff;
+	height:520px;
+	padding:10px;
+	border:#f2c667 1px solid;
+	}
+.zhong{
+	margin-left:8px;
+	padding-top:270px;
+	}
+#nav {
+		width:120px; 
+		text-align:center;
+		margin:0 auto;
+
+	}
+		#nav li {
+				line-height:19px;
+				text-align:left;
+				font-family:"微软雅黑";
+				font:13px;
+				text-decoration:none;
+				color:#D80C0C;
+				padding-top:5px;
+				border-bottom:1px dotted #eeeeee;
+					
+		}
+		
+				#nav li a{text-decoration: none; color:#FFF;}
+				#nav li a:hover{text-decoration: none; color:#D80C0C;}
+.lxwm{
+	width:100%;
+	background:#fff;
+	border:#FFC200 2px solid;
+	}
+.wygm_l{
+	width:49%;
+	font-size:12px;
+	border-right:2px solid #ffc200;
+	padding-bottom:20px;
+	padding-top:15px;
+	}
+.wygm_l p{
+	margin-top:6px;
+	padding-left:20px;
+	}
+.wygm_r p{
+	width:100%;
+	margin:0 auto;
+	line-height:1.6;
+	padding-top:10px;
+	}
+.wygm_r{
+	width:49%;
+	padding-top:15px;
+	}
+.wygm{
+	width:100%;
+	margin:0 auto;
+	}
+.STYLE1 {color: #FFFF00}
+.STYLE2 {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+.STYLE3 {color: #FFFF99}
+.STYLE14 {color: #FFFF99; font-size: 18px; }
+.STYLE17 {
+	font-size: 18px;
+	color: #FFFF00;
+	font-weight: bold;
+}
+.STYLE18 {color: #FFFFFF}
+
+.k_r{
+	width:510px;
+	}
+	
+.k_l{
+	width:419px;
+	border:#f7921c 1px solid;
+	padding-bottom:8px;
+	background:#fff1d8;
+	margin-bottom:8px;
+	}
+.tu{
+	width:408px;
+	margin:0 auto;
+	margin-top:8px;
+	}
+.red{
+	color:#FFFF00;
+	}
+	
+.gsjj{width:95%;
+	background:#fff;
+	border:#890d00 1px solid;
+	padding:20px 23px;
+	color:#000;}
+.gsjj_1{width:95%;
+	background:#FFF1D8;
+	border:#890d00 1px solid;
+	padding:20px 23px;
+	color:#000;}
+.gsjj h1{
+	text-align:center;
+	height:35px;
+	line-height:35px;
+	color:#B60606;
+	font-size:26px;
+	border-bottom:#996600 1px dotted;
+	}
+.gsjj h2{
+	font-size:20px;
+	color:#B60606;
+	height:30px;
+	line-height:30px;
+	margin-top:10px;
+	}
+.gsjj h5{
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	margin-top:8px;
+	}
+.gsjj p{
+	margin-top:8px;
+	line-height:1.8;
+	font-size:15px;
+	text-indent:24px;
+	}
+.lxwm{margin-left:34px;
+			width:93%;
+	border:#FFC200 2px solid;
+	}
+.red{
+	font-weight:bold;
+	color:#ff0000;
+	font-size:14px;
+	}
+	
+.bank{
+	font-size:16px;
+	font-weight:bold;
+	color:#FF0000;
+	}
+.bank_x{
+	font-size:14px;
+	font-weight:bold;
+	word-spacing:100px;
+	}
+
+.jx_nr{
+	width:90%;
+	margin:0 auto;
+	padding-bottom:25px;
+	bgcolor: "#FFF1D8";
+	}
+.jx_nr h3{
+	font-size:16px;
+	color:#FF0000;
+	margin-top:20px;
+	border-bottom:#d7b379 1px solid;
+	height:30px;
+	line-height:30px;
+	}
+.jx_nr p{
+	margin-top:15px;
+	font-size:14px;
+	}
+.center{
+	background:#860000;
+	}
+.botm{
+	background:#860000;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	line-height:1.8;
+	}
+.botm_index{
+        background:url(../img/products/index_30.gif) no-repeat;
+	padding-top:0px;
+	padding-bottom:30px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	line-height:2.8;
+}
