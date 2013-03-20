@@ -77,7 +77,7 @@ if ( ! function_exists('create_captcha'))
 		{
 			return FALSE;
 		}
-
+                
 		// -----------------------------------
 		// Remove old images
 		// -----------------------------------

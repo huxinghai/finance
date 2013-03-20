@@ -20,6 +20,13 @@
       </div>
     </div>
     <div class="control-group">
+      <label class="control-label" style="width:330px;padding:0px"  for="inputPassword">验证码: </label>
+      <div class="controls" style="margin-left:350px;">
+        <input type="text" name="code" class='input'  placeholder="code">
+        <?php echo $img_code["image"]; ?>
+      </div>
+    </div>
+    <div class="control-group">
       <div class="controls" style="margin-left:350px;">
         <button type="submit" class="btn">登陆</button>
       </div>
